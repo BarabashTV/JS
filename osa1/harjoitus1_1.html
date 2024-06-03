@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>osa1 harjoitus</title>
+    <!-- defer: you need this access DOM (document object model) from your script
+    without defer, doc is not YET available when script always put defer, if not sure-->
+    <script type="text/javascript" scr="harjoitus1.js" defer></script>
+    <!--<script>
+      alert("heippa");
+    </script>-->
+    <script defer>
+      document.getElementById(mainh).innerHTML = "muutos 2";
+    </script>
+  </head>
+  <body>
+    <h1>Tämä on osan 1 harjoitus</h1>
+    <script>
+      //Yhden rivin kommentti
+      window.alert("Tervehdys vaan!");
+      console.log("Tännekin osaan tulostaa :D");
+      /** Useamman
+       * rivin
+       * *kommentti*/
+    </script>
+  </body>
+</html>
